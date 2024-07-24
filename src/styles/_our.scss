@@ -1,0 +1,56 @@
+.our {
+  padding: 70px 0;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  &__img {
+    max-width: 361px;
+    width: 100%;
+    background-size: cover;
+    // background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  }
+
+  &__right-block{
+    padding: 124px 0 44px;
+  }
+
+  &__title {
+    color: #2c2d35;
+    max-width: 281px;
+    width: 100%;
+    font-size: 40px;
+    line-height: 110%;
+  }
+
+  &__text {
+    color: #2c2d35;
+    width: 635px;
+    // width: 100%;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  &__content{
+    display: flex;
+  }
+
+  &__command{
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+  }
+
+
+  &__command-img {
+    max-width: 80px;
+    width: 100%;
+    border-radius: 80px;
+    // background: url('/src/img/our__command/women.svg') lightgray -0.064px -6px / 100.16% 150.396%
+    //     no-repeat,
+    //   #c4c4c4;
+  }
+}

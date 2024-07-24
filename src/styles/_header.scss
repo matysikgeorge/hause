@@ -1,0 +1,35 @@
+.header {
+  background-color: #e1ede6;
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33px 40px;
+  }
+
+  &__nav-logo {
+    color: #598d66;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-weight: 700;
+  }
+
+  &__nav-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+  }
+
+  &__nav-menu-link {
+    transition: 0.3s;
+  }
+
+  &__nav-menu-link:hover {
+    color: #598d66;
+    filter: brightness(0) saturate(100%) invert(48%) sepia(54%) saturate(299%)
+      hue-rotate(83deg) brightness(92%) contrast(81%);
+  }
+}

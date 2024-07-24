@@ -1,0 +1,97 @@
+.footer {
+  padding: 23px 0 23px;
+  background-color: #e1ede6;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__left-block {
+    display: flex;
+    gap: 115px;
+  }
+
+  &__logo {
+    color: #598d66;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-weight: 700;
+  }
+
+  &__number {
+    color: #2c2d35;
+    font-size: 20px;
+    margin-top: 35px;
+    transition: 0.3s;
+  }
+
+  &__number:hover {
+    color: #598d66;
+  }
+
+  &__number-desc {
+    color: #86928b;
+    font-size: 18px;
+    margin-top: 8px;
+  }
+
+  &__lists-title{
+    display: flex;
+    gap: 60px;
+  }
+
+
+  &__title {
+    color: #2C2D35;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+
+  &__title:hover {
+    color: #598d66;
+  }
+
+  &__link {
+    color: #86928b;
+    margin-top: 6px;
+    font-size: 18px;
+    line-height: 150%;
+    transition: 0.3s;
+  }
+
+  &__link:hover {
+    color: black;
+  }
+
+  &__icons {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__icons-link {
+    color: #2c2d35;
+    transition: 0.3s;
+  }
+
+  &__icons-link:hover {
+    color: #598d66;
+    filter: brightness(0) saturate(100%) invert(48%) sepia(54%) saturate(299%)
+      hue-rotate(83deg) brightness(92%) contrast(81%);
+  }
+
+  &__info {
+    color: #86928b;
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 120%;
+  }
+
+  &__rights {
+    color: #86928b;
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 120%;
+  }
+}
