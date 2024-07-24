@@ -8,8 +8,11 @@
   }
 
   &__left-block {
+    max-width: 730px;
+    width: 100%;
     display: flex;
-    gap: 115px;
+    justify-content: space-between;
+    
   }
 
   &__logo {

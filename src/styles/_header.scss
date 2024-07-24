@@ -32,4 +32,7 @@
     filter: brightness(0) saturate(100%) invert(48%) sepia(54%) saturate(299%)
       hue-rotate(83deg) brightness(92%) contrast(81%);
   }
+  &__nav-menu-icon{
+    display: block;
+  }
 }

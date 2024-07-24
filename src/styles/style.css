@@ -93,6 +93,9 @@ button {
   color: #598d66;
   filter: brightness(0) saturate(100%) invert(48%) sepia(54%) saturate(299%) hue-rotate(83deg) brightness(92%) contrast(81%);
 }
+.header__nav-menu-icon {
+  display: block;
+}
 
 .reproductions {
   padding: 70px 0;
@@ -292,8 +295,10 @@ button {
   justify-content: space-between;
 }
 .footer__left-block {
+  max-width: 730px;
+  width: 100%;
   display: flex;
-  gap: 115px;
+  justify-content: space-between;
 }
 .footer__logo {
   color: #598d66;
