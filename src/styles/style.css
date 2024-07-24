@@ -70,7 +70,6 @@ button {
 .header__nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 33px 40px;
 }
 .header__nav-logo {
